@@ -1,0 +1,17 @@
+{
+  "name": "@army/simian",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Chaos Monkey for the estate — random target termination with blast radius, generative seeds, and damage reports",
+  "bin": {
+    "simian": "./bin/simian.ts"
+  },
+  "scripts": {
+    "test": "bun test",
+    "check": "bunx tsc --noEmit",
+    "run": "bun run bin/simian.ts"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}
